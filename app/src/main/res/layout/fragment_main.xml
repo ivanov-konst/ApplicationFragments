@@ -8,6 +8,7 @@
 
     <EditText
         android:id="@+id/tvName"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
@@ -15,7 +16,7 @@
         android:hint="Ваше имя"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@color/purple_700"
         android:textStyle="bold|italic"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,6 +28,7 @@
 
     <EditText
         android:id="@+id/tvSurname"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
@@ -34,7 +36,7 @@
         android:hint="Ваша фамилия"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@color/purple_700"
         android:textStyle="bold|italic"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,19 +48,21 @@
 
     <EditText
         android:id="@+id/tvEmail"
+        style="@style/Widget.AppCompat.EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
+        android:breakStrategy="simple"
         android:fontFamily="sans-serif"
         android:hint="Ваш email"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@color/purple_700"
         android:textStyle="bold|italic"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
